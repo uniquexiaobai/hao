@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "CheatSheet",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Develop CheatSheet",
+  "version": "1.0.0",
+  "author": "uniquexiaobai@gmail.com",
   "dependencies": {
     "gatsby": "^2.13.45",
     "gatsby-image": "^2.2.7",
@@ -26,6 +26,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "now-build": "npm run build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -35,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/uniquexiaobai/cheatsheet"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/uniquexiaobai/cheatsheet/issues"
   }
 }
