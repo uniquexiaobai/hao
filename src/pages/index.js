@@ -5,6 +5,10 @@ import SEO from '../components/seo'
 
 const list = [
     {
+        name: 'Carbon',
+        url: 'https://carbon.now.sh',
+    },
+    {
         name: 'Vim',
         url: 'https://vim.rtorr.com/lang/zh_cn',
     },
