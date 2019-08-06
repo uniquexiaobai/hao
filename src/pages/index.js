@@ -20,7 +20,7 @@ const cards = [
                 name: '智图',
                 url: 'https://zhitu.isux.us/',
             },
-        ]
+        ],
     },
     {
         title: 'CSS',
@@ -49,7 +49,7 @@ const cards = [
                 name: 'CSS Triggers',
                 url: 'https://csstriggers.com/',
             },
-        ]
+        ],
     },
     {
         title: 'JavaScript',
@@ -71,10 +71,10 @@ const cards = [
                 name: 'AST Explorer',
                 url: 'https://astexplorer.net/',
             },
-        ]
+        ],
     },
     {
-        title: 'Lib',
+        title: 'Libs',
         list: [
             {
                 name: 'React',
@@ -82,7 +82,8 @@ const cards = [
             },
             {
                 name: 'React Lifecycle',
-                url: 'http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/',
+                url:
+                    'http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/',
             },
             {
                 name: 'React Router',
@@ -104,10 +105,10 @@ const cards = [
                 name: 'Jest',
                 url: 'https://devhints.io/jest',
             },
-        ]
+        ],
     },
     {
-        title: 'Tool',
+        title: 'Tools',
         list: [
             {
                 name: 'Vim',
@@ -129,7 +130,19 @@ const cards = [
                 name: 'Manifest Generator',
                 url: 'https://tomitm.github.io/appmanifest/',
             },
-        ]
+            {
+                name: 'Favicon Generator',
+                url: 'https://favicon.io/favicon-generator/',
+            },
+            {
+                name: 'Screen Dump',
+                url: 'https://screendump.techulus.com/',
+            },
+            {
+                name: 'PageSpeed Insights',
+                url: 'https://developers.google.com/speed/pagespeed/insights/',
+            },
+        ],
     },
     {
         title: 'Other',
@@ -146,7 +159,7 @@ const cards = [
                 name: 'Python3',
                 url: 'https://www.pythonsheets.com/index.html',
             },
-        ]
+        ],
     },
 ]
 
@@ -159,7 +172,7 @@ const IndexPage = () => (
                 <div key={card.title} className="card">
                     <h3>{card.title}</h3>
                     <div className="list">
-                        {card.list.map((item) => (
+                        {card.list.map(item => (
                             <a href={item.url} className="item">
                                 {item.name}
                             </a>
