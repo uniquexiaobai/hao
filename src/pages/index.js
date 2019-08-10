@@ -20,6 +20,67 @@ const cards = [
                 name: '智图',
                 url: 'https://zhitu.isux.us/',
             },
+            {
+                name: 'Base64',
+                url: 'https://www.base64-image.de/',
+            },
+            {
+                name: 'Photopea',
+                url: 'https://www.photopea.com/',
+            },
+            {
+                name: '沙沙野',
+                url: 'https://www.ssyer.com/',
+            },
+            {
+                name: 'Pixabay',
+                url: 'https://pixabay.com/',
+            },
+            {
+                name: 'Vector Logo Zone',
+                url: 'https://www.vectorlogo.zone',
+            },
+            {
+                name: 'Flat Icon',
+                url: 'https://www.flaticon.com/',
+            },
+            {
+                name: 'Easy Icon',
+                url: 'https://www.easyicon.net/',
+            },
+            {
+                name: 'Icon Finder',
+                url: 'https://www.iconfinder.com/',
+            },
+            {
+                name: 'Emoji',
+                url: 'https://gitmoji.carloscuesta.me/',
+            },
+            {
+                name: 'Full Emoji List',
+                url: 'http://www.unicode.org/emoji/charts/full-emoji-list.html',
+            },
+            {
+                name: 'Favicon Generator',
+                url: 'https://favicon.io/favicon-generator/',
+            },
+            {
+                name: 'Android Asset Studio',
+                url:
+                    'http://romannurik.github.io/AndroidAssetStudio/index.html',
+            },
+            {
+                name: 'IcoMoon',
+                url: 'https://icomoon.io/app/#/select',
+            },
+            {
+                name: 'Iconfont',
+                url: 'https://www.iconfont.cn/',
+            },
+            {
+                name: 'Google Fonts',
+                url: 'https://fonts.google.com/',
+            },
         ],
     },
     {
@@ -48,6 +109,23 @@ const cards = [
             {
                 name: 'CSS Triggers',
                 url: 'https://csstriggers.com/',
+            },
+            {
+                name: 'clip-path maker',
+                url: 'https://bennettfeely.com/clippy/',
+            },
+            {
+                name: 'tools/css',
+                url: 'https://www.bestagencies.com/tools/',
+            },
+            {
+                name: 'iPhone Resolutions',
+                url:
+                    'https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions',
+            },
+            {
+                name: 'Screen Sizes',
+                url: 'http://screensiz.es/',
             },
         ],
     },
@@ -115,8 +193,16 @@ const cards = [
                 url: 'https://vim.rtorr.com/lang/zh_cn',
             },
             {
+                name: 'Httpie',
+                url: 'https://httpie.org/doc#usage',
+            },
+            {
                 name: 'Sublime',
                 url: 'http://sublime.emptystack.net/',
+            },
+            {
+                name: 'VS Code',
+                url: 'https://www.vscodecandothat.com/',
             },
             {
                 name: 'Create App',
@@ -131,10 +217,6 @@ const cards = [
                 url: 'https://tomitm.github.io/appmanifest/',
             },
             {
-                name: 'Favicon Generator',
-                url: 'https://favicon.io/favicon-generator/',
-            },
-            {
                 name: 'Screen Dump',
                 url: 'https://screendump.techulus.com/',
             },
@@ -142,15 +224,19 @@ const cards = [
                 name: 'PageSpeed Insights',
                 url: 'https://developers.google.com/speed/pagespeed/insights/',
             },
+            {
+                name: 'CODELF',
+                url: 'https://unbug.github.io/codelf/',
+            },
+            {
+                name: 'Small PDF',
+                url: 'https://smallpdf.com/cn',
+            },
         ],
     },
     {
         title: 'Other',
         list: [
-            {
-                name: 'Emoji',
-                url: 'https://gitmoji.carloscuesta.me/',
-            },
             {
                 name: 'Big O',
                 url: 'https://www.bigocheatsheet.com/',
@@ -158,6 +244,26 @@ const cards = [
             {
                 name: 'Python3',
                 url: 'https://www.pythonsheets.com/index.html',
+            },
+            {
+                name: '75CDN',
+                url: 'https://cdn.baomitu.com/',
+            },
+            {
+                name: 'Packal',
+                url: 'http://www.packal.org/',
+            },
+            {
+                name: 'Firefox Send',
+                url: 'https://send.firefox.com/',
+            },
+            {
+                name: '数学乐',
+                url: 'https://www.shuxuele.com/index.html',
+            },
+            {
+                name: 'collabedit',
+                url: 'http://collabedit.com/',
             },
         ],
     },
