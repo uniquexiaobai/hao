@@ -29,6 +29,10 @@ const cards = [
                 url: 'https://www.photopea.com/',
             },
             {
+                name: '西田图像',
+                url: 'https://www.sitapix.com/',
+            },
+            {
                 name: '沙沙野',
                 url: 'https://www.ssyer.com/',
             },
@@ -237,6 +241,18 @@ const cards = [
     {
         title: 'Other',
         list: [
+            {
+                name: '现代JS教程',
+                url: 'https://zh.javascript.info/',
+            },
+            {
+                name: 'Web',
+                url: 'https://developers.google.com/web/',
+            },
+            {
+                name: 'V8',
+                url: 'https://v8.js.cn',
+            },
             {
                 name: 'Big O',
                 url: 'https://www.bigocheatsheet.com/',
