@@ -159,6 +159,10 @@ const cards = [
         title: 'Libs',
         list: [
             {
+                name: 'Fetch',
+                url: 'https://github.github.io/fetch/',
+            },
+            {
                 name: 'React',
                 url: 'http://www.developer-cheatsheets.com/react',
             },
@@ -246,6 +250,10 @@ const cards = [
                 url: 'https://zh.javascript.info/',
             },
             {
+                name: 'MDN',
+                url: 'https://developer.mozilla.org/zh-CN/',
+            },
+            {
                 name: 'Web',
                 url: 'https://developers.google.com/web/',
             },
@@ -260,6 +268,10 @@ const cards = [
             {
                 name: 'Python3',
                 url: 'https://www.pythonsheets.com/index.html',
+            },
+            {
+                name: 'Requests',
+                url: 'http://cn.python-requests.org/zh_CN/latest/',
             },
             {
                 name: '75CDN',
