@@ -6,6 +6,27 @@ import '../styles/index.css'
 
 const cards = [
     {
+        title: 'Python',
+        list: [
+            {
+                name: 'Python3',
+                url: 'https://www.pythonsheets.com/index.html',
+            },
+            {
+                name: 'Requests',
+                url: 'http://cn.python-requests.org/zh_CN/latest/',
+            },
+            {
+                name: 'Beautiful Soup',
+                url: 'https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/#',
+            },
+            {
+                name: 'Python VS JavaScript',
+                url: 'https://sayazamurai.github.io/python-vs-javascript/',
+            },
+        ],
+    },
+    {
         title: 'Image',
         list: [
             {
@@ -27,6 +48,10 @@ const cards = [
             {
                 name: 'Photopea',
                 url: 'https://www.photopea.com/',
+            },
+            {
+                name: 'Redditix',
+                url: 'https://redditix.com/',
             },
             {
                 name: '西田图像',
@@ -131,6 +156,10 @@ const cards = [
                 name: 'Screen Sizes',
                 url: 'http://screensiz.es/',
             },
+            {
+                name: 'UserAgent StyleSheet',
+                url: 'https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css',
+            },
         ],
     },
     {
@@ -152,6 +181,10 @@ const cards = [
             {
                 name: 'AST Explorer',
                 url: 'https://astexplorer.net/',
+            },
+            {
+                name: 'Best of JavaScript',
+                url: 'https://bestofjs.org/',
             },
         ],
     },
@@ -266,14 +299,6 @@ const cards = [
                 url: 'https://www.bigocheatsheet.com/',
             },
             {
-                name: 'Python3',
-                url: 'https://www.pythonsheets.com/index.html',
-            },
-            {
-                name: 'Requests',
-                url: 'http://cn.python-requests.org/zh_CN/latest/',
-            },
-            {
                 name: '75CDN',
                 url: 'https://cdn.baomitu.com/',
             },
@@ -292,6 +317,10 @@ const cards = [
             {
                 name: 'collabedit',
                 url: 'http://collabedit.com/',
+            },
+            {
+                name: '独角兽',
+                url: 'https://dujiaoshou.io/',
             },
         ],
     },
