@@ -66,6 +66,10 @@ const cards = [
                 url: 'https://pixabay.com/',
             },
             {
+                name: 'SVG Porn',
+                url: 'https://svgporn.com/',
+            },
+            {
                 name: 'Vector Logo Zone',
                 url: 'https://www.vectorlogo.zone',
             },
@@ -230,6 +234,10 @@ const cards = [
         title: 'Tools',
         list: [
             {
+                name: 'Git Flight Rules',
+                url: 'https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md',
+            },
+            {
                 name: 'Vim',
                 url: 'https://vim.rtorr.com/lang/zh_cn',
             },
@@ -273,11 +281,19 @@ const cards = [
                 name: 'Small PDF',
                 url: 'https://smallpdf.com/cn',
             },
+            {
+                name: 'Shields',
+                url: 'https://shields.io/',
+            },
         ],
     },
     {
         title: 'Other',
         list: [
+            {
+                name: 'FullStack Cafe',
+                url: 'https://www.fullstack.cafe/',
+            },
             {
                 name: '现代JS教程',
                 url: 'https://zh.javascript.info/',
@@ -321,6 +337,14 @@ const cards = [
             {
                 name: '独角兽',
                 url: 'https://dujiaoshou.io/',
+            },
+            {
+                name: 'itLevel',
+                url: 'https://itlevel.vip/',
+            },
+            {
+                name: '音范丝',
+                url: 'http://www.yinfans.me/',
             },
         ],
     },
