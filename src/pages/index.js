@@ -13,14 +13,6 @@ const cards = [
                 url: 'https://www.pythonsheets.com/index.html',
             },
             {
-                name: 'Requests',
-                url: 'http://cn.python-requests.org/zh_CN/latest/',
-            },
-            {
-                name: 'Beautiful Soup',
-                url: 'https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/#',
-            },
-            {
                 name: 'Python VS JavaScript',
                 url: 'https://sayazamurai.github.io/python-vs-javascript/',
             },
@@ -233,6 +225,10 @@ const cards = [
     {
         title: 'Tools',
         list: [
+            {
+                name: 'Transform',
+                url: 'https://transform.tools/',
+            },
             {
                 name: 'Git Flight Rules',
                 url: 'https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md',
