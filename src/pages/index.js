@@ -242,8 +242,12 @@ const cards = [
                 url: 'https://httpie.org/doc#usage',
             },
             {
-                name: 'Sublime',
+                name: 'Sublime Shortcuts',
                 url: 'http://sublime.emptystack.net/',
+            },
+            {
+                name: 'VS Code Shortcuts',
+                url: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf',
             },
             {
                 name: 'VS Code',
