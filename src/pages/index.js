@@ -285,6 +285,10 @@ const cards = [
                 name: 'Shields',
                 url: 'https://shields.io/',
             },
+            {
+                name: 'The Art of Command Line',
+                url: 'https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md',
+            },
         ],
     },
     {
