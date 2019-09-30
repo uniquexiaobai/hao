@@ -1,8 +1,7 @@
-import React from 'react'
-
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import '../styles/index.css'
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import '../styles/index.css';
 
 const cards = [
     {
@@ -154,7 +153,8 @@ const cards = [
             },
             {
                 name: 'UserAgent StyleSheet',
-                url: 'https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css',
+                url:
+                    'https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css',
             },
         ],
     },
@@ -231,7 +231,8 @@ const cards = [
             },
             {
                 name: 'Git Flight Rules',
-                url: 'https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md',
+                url:
+                    'https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md',
             },
             {
                 name: 'Vim',
@@ -247,7 +248,8 @@ const cards = [
             },
             {
                 name: 'VS Code Shortcuts',
-                url: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf',
+                url:
+                    'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf',
             },
             {
                 name: 'VS Code',
@@ -287,7 +289,8 @@ const cards = [
             },
             {
                 name: 'The Art of Command Line',
-                url: 'https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md',
+                url:
+                    'https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md',
             },
         ],
     },
@@ -352,19 +355,19 @@ const cards = [
             },
         ],
     },
-]
+];
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Home" />
+        <SEO title='Home' />
 
         <div>
             {cards.map(card => (
-                <div key={card.title} className="card">
+                <div key={card.title} className='card'>
                     <h3>{card.title}</h3>
-                    <div className="list">
+                    <div className='list'>
                         {card.list.map(item => (
-                            <a href={item.url} className="item">
+                            <a href={item.url} className='item'>
                                 {item.name}
                             </a>
                         ))}
@@ -373,6 +376,6 @@ const IndexPage = () => (
             ))}
         </div>
     </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
