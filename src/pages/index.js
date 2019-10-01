@@ -108,6 +108,15 @@ const cards = [
         ],
     },
     {
+        title: 'HTML',
+        list: [
+            {
+                name: 'HEAD',
+                url: 'https://htmlhead.dev/',
+            },
+        ],
+    },
+    {
         title: 'CSS',
         list: [
             {
