@@ -269,6 +269,10 @@ const cards = [
                 url: 'https://createapp.dev/',
             },
             {
+                name: 'Create React Content Loader',
+                url: 'http://danilowoz.com/create-content-loader/',
+            },
+            {
                 name: 'Nginx Config',
                 url: 'https://nginxconfig.io/',
             },
