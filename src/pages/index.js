@@ -114,6 +114,10 @@ const cards = [
                 name: 'HEAD',
                 url: 'https://htmlhead.dev/',
             },
+            {
+                name: 'Entity Reference',
+                url: 'https://dev.w3.org/html5/html-author/charref',
+            },
         ],
     },
     {
@@ -142,6 +146,10 @@ const cards = [
             {
                 name: 'CSS Triggers',
                 url: 'https://csstriggers.com/',
+            },
+            {
+                name: 'CSS matic',
+                url: 'https://www.cssmatic.com/',
             },
             {
                 name: 'clip-path maker',
@@ -184,6 +192,10 @@ const cards = [
                     'https://raw.githubusercontent.com/frontarm/async-javascript-cheatsheet/master/async-cheatsheet.png',
             },
             {
+                name: 'Polyfill.io',
+                url: 'https://polyfill.io/v3/',
+            },
+            {
                 name: 'AST Explorer',
                 url: 'https://astexplorer.net/',
             },
@@ -219,7 +231,13 @@ const cards = [
             },
             {
                 name: 'Vue',
-                url: 'https://marozed.ma/vue-cheatsheet/',
+                url:
+                    'https://uniquexiaobai.oss-cn-hangzhou.aliyuncs.com/cheatsheet/Vue-Essentials-Cheat-Sheet.pdf',
+            },
+            {
+                name: 'Vue3',
+                url:
+                    'https://uniquexiaobai.oss-cn-hangzhou.aliyuncs.com/cheatsheet/Vue-Essentials-Cheat-Sheet.pdf',
             },
             {
                 name: 'Vuex',
@@ -289,6 +307,10 @@ const cards = [
                 url: 'https://developers.google.com/speed/pagespeed/insights/',
             },
             {
+                name: 'mobile-friendly',
+                url: 'https://search.google.com/test/mobile-friendly',
+            },
+            {
                 name: 'CODELF',
                 url: 'https://unbug.github.io/codelf/',
             },
@@ -313,6 +335,10 @@ const cards = [
             {
                 name: 'FullStack Cafe',
                 url: 'https://www.fullstack.cafe/',
+            },
+            {
+                name: 'Google Style Guides',
+                url: 'http://google.github.io/styleguide/',
             },
             {
                 name: '现代JS教程',
@@ -349,6 +375,10 @@ const cards = [
             {
                 name: '数学乐',
                 url: 'https://www.shuxuele.com/index.html',
+            },
+            {
+                name: '图形计算器',
+                url: 'https://www.geogebra.org/graphing',
             },
             {
                 name: 'collabedit',
