@@ -15,6 +15,10 @@ const cards = [
 				name: 'Python VS JavaScript',
 				url: 'https://sayazamurai.github.io/python-vs-javascript/',
 			},
+			{
+				name: 'PyPI',
+				url: 'https://pypi.org/',
+			},
 		],
 	},
 	{
@@ -43,7 +47,11 @@ const cards = [
 			{
 				name: 'Redditix',
 				url: 'https://redditix.com/',
-			},
+            },
+            {
+                name: 'TJ Holowaychuk',
+                url: 'http://tjholowaychuk.com/',
+            },
 			{
 				name: '西田图像',
 				url: 'https://www.sitapix.com/',
@@ -120,7 +128,11 @@ const cards = [
 			{
 				name: 'XSS',
 				url: 'https://portswigger.net/web-security/cross-site-scripting/cheat-sheet',
-			},
+            },
+            {
+                name: 'HTML & CSS Security Checklist',
+                url: 'https://www.sqreen.com/checklists/html-css-security-checklist/',
+            },
 		],
 	},
 	{
@@ -182,7 +194,7 @@ const cards = [
 		list: [
 			{
 				name: 'Regexly',
-				url: 'https://regexly.chipto.io/',
+				url: 'https://regexly.js.org/',
 			},
 			{
 				name: 'JS Features',
@@ -264,6 +276,10 @@ const cards = [
 			{
 				name: 'Vim',
 				url: 'https://vim.rtorr.com/lang/zh_cn',
+			},
+			{
+				name: 'VimAwesome',
+				url: 'https://vimawesome.com/',
 			},
 			{
 				name: 'Httpie',
@@ -393,7 +409,11 @@ const cards = [
 			{
 				name: '音范丝',
 				url: 'http://www.yinfans.me/',
-			},
+            },
+            {
+                name: 'Free for developers',
+                url: 'https://free-for.dev/',
+            },
 		],
 	},
 ];
