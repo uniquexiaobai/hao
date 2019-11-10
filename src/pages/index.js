@@ -268,6 +268,10 @@ const cards = [
 			{
 				name: 'Transform',
 				url: 'https://transform.tools/',
+            },
+            {
+				name: 'Git Cheatsheet',
+				url: 'https://cheatsheeets.netlify.com/git',
 			},
 			{
 				name: 'Git Flight Rules',
