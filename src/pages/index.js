@@ -124,7 +124,11 @@ const cards = [
 			{
 				name: 'Entity Reference',
 				url: 'https://dev.w3.org/html5/html-author/charref',
-			},
+            },
+            {
+                name: 'Glyphy',
+                url: 'https://www.glyphy.io/',
+            },
 			{
 				name: 'XSS',
 				url: 'https://portswigger.net/web-security/cross-site-scripting/cheat-sheet',
@@ -304,7 +308,11 @@ const cards = [
 			{
 				name: 'Create App',
 				url: 'https://createapp.dev/',
-			},
+            },
+            {
+                name: 'GraphQL Code Generate',
+                url: 'https://graphql-code-generator.com/#live-demo',
+            },
 			{
 				name: 'Create React Content Loader',
 				url: 'http://danilowoz.com/create-content-loader/',
