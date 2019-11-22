@@ -47,11 +47,11 @@ const cards = [
 			{
 				name: 'Redditix',
 				url: 'https://redditix.com/',
-            },
-            {
-                name: 'TJ Holowaychuk',
-                url: 'http://tjholowaychuk.com/',
-            },
+			},
+			{
+				name: 'TJ Holowaychuk',
+				url: 'http://tjholowaychuk.com/',
+			},
 			{
 				name: '西田图像',
 				url: 'https://www.sitapix.com/',
@@ -122,21 +122,25 @@ const cards = [
 				url: 'https://htmlhead.dev/',
 			},
 			{
+				name: 'Unicode Planes',
+				url: 'https://codepoints.net/planes',
+			},
+			{
 				name: 'Entity Reference',
 				url: 'https://dev.w3.org/html5/html-author/charref',
-            },
-            {
-                name: 'Glyphy',
-                url: 'https://www.glyphy.io/',
-            },
+			},
+			{
+				name: 'Glyphy',
+				url: 'https://www.glyphy.io/',
+			},
 			{
 				name: 'XSS',
 				url: 'https://portswigger.net/web-security/cross-site-scripting/cheat-sheet',
-            },
-            {
-                name: 'HTML & CSS Security Checklist',
-                url: 'https://www.sqreen.com/checklists/html-css-security-checklist/',
-            },
+			},
+			{
+				name: 'HTML & CSS Security Checklist',
+				url: 'https://www.sqreen.com/checklists/html-css-security-checklist/',
+			},
 		],
 	},
 	{
@@ -270,10 +274,14 @@ const cards = [
 		title: 'Tools',
 		list: [
 			{
+				name: 'Linux Tools Quick Tutorial',
+				url: 'https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html',
+			},
+			{
 				name: 'Transform',
 				url: 'https://transform.tools/',
-            },
-            {
+			},
+			{
 				name: 'Git Cheatsheet',
 				url: 'https://cheatsheeets.netlify.com/git',
 			},
@@ -308,11 +316,11 @@ const cards = [
 			{
 				name: 'Create App',
 				url: 'https://createapp.dev/',
-            },
-            {
-                name: 'GraphQL Code Generate',
-                url: 'https://graphql-code-generator.com/#live-demo',
-            },
+			},
+			{
+				name: 'GraphQL Code Generate',
+				url: 'https://graphql-code-generator.com/#live-demo',
+			},
 			{
 				name: 'Create React Content Loader',
 				url: 'http://danilowoz.com/create-content-loader/',
@@ -421,11 +429,11 @@ const cards = [
 			{
 				name: '音范丝',
 				url: 'http://www.yinfans.me/',
-            },
-            {
-                name: 'Free for developers',
-                url: 'https://free-for.dev/',
-            },
+			},
+			{
+				name: 'Free for developers',
+				url: 'https://free-for.dev/',
+			},
 		],
 	},
 ];
