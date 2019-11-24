@@ -209,6 +209,10 @@ const cards = [
 				url: 'https://jsfeatures.in/',
 			},
 			{
+				name: 'Rxjs',
+				url: 'https://bobi.ink/2019/04/06/rx-operations/',
+			},
+			{
 				name: 'Async',
 				url:
 					'https://raw.githubusercontent.com/frontarm/async-javascript-cheatsheet/master/async-cheatsheet.png',
