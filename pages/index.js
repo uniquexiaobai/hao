@@ -96,7 +96,7 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-  const url = 'https://api.apispreadsheets.com/data/1716/?dataFormat=matrix';
+  const url = 'https://api.apispreadsheets.com/data/1734/?dataFormat=matrix';
 
   try {
     const { data } = await got(url).json();
