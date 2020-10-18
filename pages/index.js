@@ -96,12 +96,14 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-  const url = 'https://api.apispreadsheets.com/data/1734/?dataFormat=matrix';
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/1nwgg4TWOH86MTcnu8L7T0NGoeAy_Tkd6NGZAfcNS_hA/values/main?key=${process.env.API_KEY}`;
 
   try {
-    const { data } = await got(url).json();
+    const {
+      data: { values },
+    } = await got(url).json();
 
-    return { props: { data } };
+    return { props: { data: values } };
   } catch (err) {
     return { props: {} };
   }
