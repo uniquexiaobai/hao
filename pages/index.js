@@ -96,12 +96,10 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/1nwgg4TWOH86MTcnu8L7T0NGoeAy_Tkd6NGZAfcNS_hA/values/main?key=${process.env.API_KEY}`;
+  const url = `https://lokibai.com/sheets/hao?key=${process.env.API_KEY}`;
 
   try {
-    const {
-      data: { values },
-    } = await got(url).json();
+    const { values } = await got(url).json();
 
     return { props: { data: values } };
   } catch (err) {

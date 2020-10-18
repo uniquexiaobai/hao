@@ -2728,7 +2728,7 @@ globals@^11.1.0:
 
 got@^11.7.0:
   version "11.7.0"
-  resolved "https://registry.npm.taobao.org/got/download/got-11.7.0.tgz#a386360305571a74548872e674932b4ef70d3b24"
+  resolved "https://registry.npm.taobao.org/got/download/got-11.7.0.tgz?cache=0&sync_timestamp=1600463391648&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgot%2Fdownload%2Fgot-11.7.0.tgz#a386360305571a74548872e674932b4ef70d3b24"
   integrity sha1-o4Y2AwVXGnRUiHLmdJMrTvcNOyQ=
   dependencies:
     "@sindresorhus/is" "^3.1.1"
