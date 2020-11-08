@@ -96,12 +96,13 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-  const url = `https://lokibai.com/sheets/hao?key=${process.env.API_KEY}`;
+  // 接口数据缓存 1天
+  const url = `https://sheets-api.lokibai.com/?sheetId=1nwgg4TWOH86MTcnu8L7T0NGoeAy_Tkd6NGZAfcNS_hA&range=main&cacheTime=86400`;
 
   try {
-    const { values } = await got(url).json();
+    const { data } = await got(url).json();
 
-    return { props: { data: values } };
+    return { props: { data } };
   } catch (err) {
     return { props: {} };
   }
